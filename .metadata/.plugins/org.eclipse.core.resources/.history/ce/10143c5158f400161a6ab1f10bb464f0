@@ -1,0 +1,5 @@
+package enumExample1;
+
+public enum Day {
+
+}

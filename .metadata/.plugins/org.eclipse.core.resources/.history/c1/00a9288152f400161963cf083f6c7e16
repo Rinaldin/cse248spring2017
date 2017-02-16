@@ -1,0 +1,5 @@
+package dependency1;
+
+public enum Rank {
+	PROFESSOR, ASSOCIATE_PROFESSOR, ASSISTANT_PROFESSOR, INSTRUCTOR
+}

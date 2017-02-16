@@ -1,0 +1,5 @@
+package mixedBag;
+
+public enum Rank {
+	PROFESSOR, ASSOCIATE_PROFESSOR, ASSISTANT_PROFESSOR, INSTRUCTOR
+}

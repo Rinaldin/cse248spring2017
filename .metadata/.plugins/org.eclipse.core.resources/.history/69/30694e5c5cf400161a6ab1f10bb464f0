@@ -1,0 +1,5 @@
+package enumExample2;
+
+public enum Planet {
+
+}

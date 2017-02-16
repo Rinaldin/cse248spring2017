@@ -1,0 +1,28 @@
+package dependency;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.TreeSet;
+
+public class Courses {
+	private Collection<Course> courseSet = new TreeSet<Course>();
+
+	public void add(Course course) {
+		courseSet.add(course);
+	}
+
+	public boolean remove(String courseNum) {
+		int i = 0;
+		for (Course c : courseSet) {
+			if (c.getCourseNum().equals(courseNum)) {
+				courseSet.remove(i);
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public String toString() {
+		return courseSet.toString();
+	}
+}

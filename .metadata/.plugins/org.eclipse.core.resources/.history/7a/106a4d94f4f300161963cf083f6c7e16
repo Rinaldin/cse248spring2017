@@ -1,0 +1,55 @@
+package dependency;
+
+import java.util.Iterator;
+import java.util.TreeSet;
+
+public class GPA {
+	private Courses courses;
+	
+	public GPA(Courses courses) {
+		this.courses = courses;
+	}
+	
+	public double getGPA() {
+		double credits = 0;
+		double creditValue = 0;
+		TreeSet<Course> treeSet = (TreeSet)courses.getCourses();
+		Iterator it = treeSet.iterator();
+		for(int i = 0; i < treeSet.size(); i++){
+			Course c = (Course) it.next();
+			System.out.println(c.getLetterGrade() + "----" + c.getCredits());
+			
+			credits += c.getCredits();
+			switch (c.getLetterGrade()) {
+			case "A":
+				creditValue += 4.0;
+				break;
+			case "B+":
+				creditValue += 3.5;
+				break;
+			case "B":
+				creditValue += 3.0;
+				break;
+			case "C+":
+				creditValue += 2.5;
+				break;
+			case "C":
+				creditValue += 2.0;
+				break;
+			case "D+":
+				creditValue += 1.5;
+				break;
+			case "D":
+				creditValue += 1.0;
+				break;
+			case "F":
+				creditValue += 0.0;
+				break;
+			}
+			
+		}
+		return creditValue / credits;
+	}
+	
+	
+}

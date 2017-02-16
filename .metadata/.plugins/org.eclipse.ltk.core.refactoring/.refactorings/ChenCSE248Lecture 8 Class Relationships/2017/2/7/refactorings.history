@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;ChenCSE248Lecture 8 Class Relationships/src/association&apos;&#x0A;- Original project: &apos;ChenCSE248Lecture 8 Class Relationships&apos;&#x0A;- Destination element: &apos;ChenCSE248Lecture 8 Class Relationships/src/association&apos;&#x0A;- Original elements:&#x0A;     dependency.Player.java&#x0A;     dependency.Die.java" description="Copy compilation units" destination="/src&lt;association" element1="/src&lt;dependency{Player.java" element2="/src&lt;dependency{Die.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1487260121324" units="2" version="1.0"/>
+</session>

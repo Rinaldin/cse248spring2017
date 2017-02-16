@@ -1,0 +1,10 @@
+package enumExample1;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		EnumApp firstDay = new EnumApp(Day.MONDAY);
+		firstDay.tellItLikeItIs();
+	}
+
+}
