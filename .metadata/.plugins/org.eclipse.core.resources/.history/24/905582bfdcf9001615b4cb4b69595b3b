@@ -1,0 +1,10 @@
+package inheritance_1;
+
+public class RubberDuckie extends Duck {
+
+	@Override
+	public void display() {
+		System.out.println("Displaying rubber duckie!");
+	}
+
+}

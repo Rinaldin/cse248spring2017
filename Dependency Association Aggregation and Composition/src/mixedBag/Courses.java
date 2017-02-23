@@ -6,8 +6,15 @@ import java.util.Iterator;
 import java.util.TreeSet;
 
 public class Courses {
+	private int i = 10;
 	private Collection<Course> courseSet = new TreeSet<Course>();//composition
+	// courseSet is created when the .class file is loaded into JVM
 
+//	public Courses() {  // courseSet created when the Courses constructor is called
+//		courseSet = new TreeSet<Course>();
+//	}
+	
+		
 	public double getGPA() {
 		double credits = 0;
 		double creditValue = 0;

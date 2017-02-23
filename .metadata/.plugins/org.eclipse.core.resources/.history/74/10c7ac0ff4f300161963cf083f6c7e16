@@ -1,7 +1,0 @@
-package dependency;
-
-public class GPA {
-	private Courses courses
-	
-	
-}

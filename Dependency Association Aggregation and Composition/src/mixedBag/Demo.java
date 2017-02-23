@@ -18,10 +18,11 @@ public class Demo {
 		Courses courses = new Courses();
 		courses.add(c1);
 		courses.add(c2);
-		courses.remove("CSE168");
+		courses.add(c1);
+//		courses.remove("CSE168");
 //		courses.remove("CSE148");
 		
-		System.out.printf("GPA is %5.2f\n",  courses.getGPA());
+//		System.out.printf("GPA is %5.2f\n",  courses.getGPA());
 		System.out.println(courses.toString());
 	}
 

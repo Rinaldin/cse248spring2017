@@ -13,7 +13,7 @@ public class Course implements Comparable<Course> {
 		this.courseName = courseName;
 		this.credits = credits;
 		this.letterGrade = letterGrade;
-		this.instructor = instructor;
+		this.instructor = new Instructor(instructor);
 	}
 
 	public String getCourseNum() {
@@ -46,6 +46,14 @@ public class Course implements Comparable<Course> {
 
 	public void setLetterGrade(String letterGrade) {
 		this.letterGrade = letterGrade;
+	}
+
+	public Instructor getInstructor() {
+		return new Instructor(instructor);
+	}
+
+	public void setInstructor(Instructor instructor) {
+		this.instructor = instructor;
 	}
 
 	@Override

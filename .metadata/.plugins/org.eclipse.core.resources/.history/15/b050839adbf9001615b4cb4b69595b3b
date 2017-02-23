@@ -1,0 +1,17 @@
+package inheritance_1;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		MallardDuck duck1 = new MallardDuck();
+		duck1.swim();
+		duck1.quack();
+		duck1.display();
+		
+		RedheadDuck duck2 = new RedheadDuck();
+		duck2.swim();
+		duck2.quack();
+		duck2.display();
+	}
+
+}

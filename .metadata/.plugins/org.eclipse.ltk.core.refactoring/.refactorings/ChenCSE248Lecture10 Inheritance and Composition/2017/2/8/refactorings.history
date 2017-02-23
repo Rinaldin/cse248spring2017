@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;composition_2&apos; to &apos;composition_3&apos;&#x0A;- Original project: &apos;ChenCSE248Lecture10 Inheritance and Composition&apos;&#x0A;- Original element: &apos;ChenCSE248Lecture10 Inheritance and Composition/src/composition_2&apos;&#x0A;- Renamed element: &apos;ChenCSE248Lecture10 Inheritance and Composition/src/composition_3&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;composition_2&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;composition_2" name="composition_3" qualified="false" references="true" stamp="1487864481390" textual="false" version="1.0"/>
+</session>

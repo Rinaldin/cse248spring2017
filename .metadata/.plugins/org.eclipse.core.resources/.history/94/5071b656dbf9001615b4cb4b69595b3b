@@ -1,0 +1,15 @@
+package inheritance_1;
+
+public abstract class Duck {
+	
+	public abstract void display();
+	
+	public void swim() {
+		System.out.println("Dock is swimming!");
+	}
+	
+	public void quack() {
+		System.out.println("Duck quack, quack.");
+	}
+
+}

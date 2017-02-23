@@ -4,4 +4,5 @@
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="java.util.TreeSet"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="inheritance_1.Duck"/>
 </qualifiedTypeNameHistroy>

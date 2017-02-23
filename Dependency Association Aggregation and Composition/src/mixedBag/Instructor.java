@@ -9,6 +9,21 @@ public class Instructor {
 		this.name = name;
 		this.rank = rank;
 	}
+	
+	// overloaded constructor makingn deep copy
+	public Instructor(Instructor i){
+		this.name = i.name;
+		this.rank = i.rank;
+	}
+	
+	public Instructor shallowCopy(Instructor i) {
+		return i;
+	}
+	
+	public Instructor deepCopy(Instructor i) {
+		return new Instructor(i);
+	}
+	
 
 	public String getName() {
 		return name;

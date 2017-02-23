@@ -1,7 +1,0 @@
-package composition;
-
-public class CommunityCollege {
-	private String name;
-	// composition.  CommunityCollege<solid>-Instructor 
-	private Instructor instructor = new Instructor("Adam", "111");
-}
