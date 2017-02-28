@@ -1,0 +1,14 @@
+package p1;
+
+public class Demo {
+
+	public static void main(String[] args) {
+//		ConcreteClass cc1 = new ConcreteClass();
+//		cc1.hi();
+//		cc1.fly();
+		Java8Interface j8 = new Java8Interface();
+		Java8Interface.hello();
+		J
+	}
+
+}

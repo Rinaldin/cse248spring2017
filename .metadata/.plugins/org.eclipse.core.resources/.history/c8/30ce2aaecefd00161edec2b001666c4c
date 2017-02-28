@@ -1,0 +1,10 @@
+package basic_1;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Student s = new Student("Dave", "1111");
+		System.out.println(s);
+	}
+
+}
