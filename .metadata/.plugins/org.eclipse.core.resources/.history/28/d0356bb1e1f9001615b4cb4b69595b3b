@@ -1,5 +1,0 @@
-package composition_3;
-
-public class FlyWithWings implements FlyBehavior {
-
-}

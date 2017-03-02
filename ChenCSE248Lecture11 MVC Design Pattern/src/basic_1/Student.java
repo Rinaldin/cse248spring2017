@@ -1,5 +1,5 @@
 package basic_1;
-
+// Plain Old Java
 public class Student {
 	private String name;
 	private String idNum;
