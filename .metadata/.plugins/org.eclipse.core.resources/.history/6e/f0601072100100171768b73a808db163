@@ -1,0 +1,12 @@
+package part1;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class Time {
+	private static Calendar calendar;
+	public static Date now() {
+		return calendar.getTime();
+		
+	}
+}

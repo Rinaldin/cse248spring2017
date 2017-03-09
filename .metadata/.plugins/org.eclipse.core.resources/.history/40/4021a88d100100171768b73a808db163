@@ -1,0 +1,10 @@
+package part1;
+
+import java.util.Date;
+
+public class Utils {
+	
+	public static Date currentTime() {
+		return Time.now();
+	}
+}

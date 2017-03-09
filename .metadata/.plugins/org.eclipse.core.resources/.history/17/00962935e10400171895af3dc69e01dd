@@ -1,0 +1,20 @@
+package p4_event_Listener;
+
+public class StudentController {
+	private WindowView view;
+	private Student model;
+	
+	public StudentController(WindowView view){
+		view.setWindowListener(new MyWindowListener() {
+
+			@Override
+			public void buttonClicked(MyWindowEvent ev) {
+				model = ev.getStudent();
+				model.setName(ev.getStudent().getName());
+				model.setId(ev.getStudent().getId());
+				System.out.println(ev.getStudent());
+			}
+			
+		});
+	}
+}

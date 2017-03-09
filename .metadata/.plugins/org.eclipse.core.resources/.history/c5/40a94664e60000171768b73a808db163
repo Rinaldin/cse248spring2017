@@ -1,0 +1,10 @@
+package part1;
+
+
+public class Utils {
+	private static Time time;
+	
+	public static int currentTime() {
+		return time.now();
+	}
+}
