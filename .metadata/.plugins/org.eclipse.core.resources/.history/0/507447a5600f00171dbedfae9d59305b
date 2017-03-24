@@ -1,0 +1,11 @@
+package open_close;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Circle c = new Circle(4);
+		Rectangle r = new Rectangle(2, 1);
+		System.out.println(AreaComputer.getArea(r));
+	}
+
+}

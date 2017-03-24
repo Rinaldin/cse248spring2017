@@ -1,0 +1,14 @@
+package procduralShapes;
+
+public class Area {
+	public double getArea(Object shape) throws Exception {
+		if(shape instanceof Circle) {
+			Circle c = new Circle();
+			return c.radius * c.radius;
+		} else if(shape instanceof Rectangle) {
+			Rectangle r = new Rectangle();
+			return r.length * r.width;
+		} 
+		throw new Exception();
+	}
+}

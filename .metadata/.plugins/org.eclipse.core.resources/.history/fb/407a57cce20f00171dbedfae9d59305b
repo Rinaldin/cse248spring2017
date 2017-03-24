@@ -1,0 +1,12 @@
+package objectShape;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Circle c = new Circle(4);
+		Rectangle r = new Rectangle(2, 1);
+		Square s = new Square(2);
+		System.out.println(AreaComputer.getArea(s));
+	}
+
+}

@@ -1,0 +1,7 @@
+package procduralShapes;
+// data structure without behavior
+public class Rectangle {
+	
+	public double length;
+	public double width;
+}

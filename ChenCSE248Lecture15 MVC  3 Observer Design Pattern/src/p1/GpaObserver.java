@@ -6,8 +6,8 @@ public class GpaObserver implements Observer{
 	private double gpa;
 	private Student student;
 	
-	public GpaObserver(Student student){
-		this.student = student;
+	public GpaObserver(Subject student){
+		this.student = (Student)student;
 		this.student.register(this);
 		System.out.println("New Observer added (registered)");
 		

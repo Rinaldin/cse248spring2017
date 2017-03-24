@@ -1,0 +1,5 @@
+package procduralShapes;
+// data structure without behavior
+public class Circle {
+	public double radius;
+}
