@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;ChenCSE248Lecture17&apos; to &apos;ChenCSE248Lecture17 Observable Design Pattern&apos;&#x0A;- Original element: &apos;ChenCSE248Lecture17&apos;&#x0A;- Renamed element: &apos;ChenCSE248Lecture17&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;ChenCSE248Lecture17&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=ChenCSE248Lecture17" name="ChenCSE248Lecture17 Observable Design Pattern" references="true" stamp="1490710948238" version="1.0"/>
+</session>

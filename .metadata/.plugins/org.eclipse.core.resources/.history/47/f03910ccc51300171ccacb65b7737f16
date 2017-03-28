@@ -1,0 +1,14 @@
+package built_in_Observable;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Student s = new Student("John", 3.0);
+		GpaObserver o1 = new GpaObserver(s);
+		s.setGpa(1.0);
+		s.setGpa(2.0);
+		s.setGpa(3.0);
+		
+	}
+
+}
