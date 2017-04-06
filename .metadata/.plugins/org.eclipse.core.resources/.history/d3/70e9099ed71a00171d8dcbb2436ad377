@@ -1,0 +1,11 @@
+package lazy_Initialization;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Captain c1 = Captain.makeACaptain();
+		System.out.println("Trying to make another captain...");
+		Captain c2 = Captain.makeACaptain();
+	}
+
+}

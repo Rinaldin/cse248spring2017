@@ -1,0 +1,5 @@
+package gameLevels;
+
+public interface IAbility {
+
+}

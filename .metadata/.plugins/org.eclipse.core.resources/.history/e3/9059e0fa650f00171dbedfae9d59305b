@@ -1,5 +1,0 @@
-package open_close;
-
-public interface IShape {
-	double getArea();
-}

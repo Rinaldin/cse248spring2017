@@ -6,6 +6,8 @@ public class StudentController {
 	
 	public StudentController(WindowView view){
 		this.view = view;
+		
+		// use anonymous class
 		view.setWindowListener(new MyWindowListener() {
 
 			@Override
