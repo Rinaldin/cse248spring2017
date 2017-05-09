@@ -1,0 +1,17 @@
+package howToStartThreads1_3;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		for(int i = 0; i < 5; i++) {
+			System.out.println("hi: " + i);
+		}
+		
+		for(int i = 0; i < 5; i++) {
+			System.out.println("Hello: " + i);
+		}
+		
+		System.out.println("done");
+	}
+
+}

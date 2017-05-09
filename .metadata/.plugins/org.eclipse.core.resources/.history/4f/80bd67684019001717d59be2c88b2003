@@ -1,5 +1,0 @@
-package composite_1;
-
-public interface IItem {
-
-}

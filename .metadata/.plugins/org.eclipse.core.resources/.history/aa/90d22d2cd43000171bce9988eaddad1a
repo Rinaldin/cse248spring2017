@@ -1,0 +1,5 @@
+package synchronizedCodeBlocks;
+
+public class Worker {
+
+}

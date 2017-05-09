@@ -2,9 +2,10 @@
 <section name="Workbench">
 	<section name="ExternalProjectImportWizard">
 		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
-		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/Chen/Documents/workspace/CST242 Decorator Pattern"/>
 			<item value="/Users/Chen/Documents/csE248/Comparable and Comparator Review"/>
 			<item value="/Users/Chen/Documents/csE248/Collection Interface Methods"/>
 			<item value="/Users/Chen/Documents/csE248/Comparables and Comparators"/>
